@@ -6,9 +6,8 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
-    <Header/>
     <Navbar/>
-    <h1>TEST</h1>
+    <Header/>
     <img src={logo} className="App-logo" alt="logo" width="80" />
     </>
   );

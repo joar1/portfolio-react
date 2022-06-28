@@ -1,6 +1,11 @@
 html,
 body {
-  text-align: center;
+  margin:0;
+  padding:0;
+  text-align:center;
+  font-family:'Baloo';
+  background-color:#36454F;
+  color:blanchedalmond;
 }
 
 @media (prefers-reduced-motion: no-preference) {
