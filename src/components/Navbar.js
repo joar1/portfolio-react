@@ -15,15 +15,19 @@ export default Navbar;
 
 
 const PimpUl = styled.ul`
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   list-style-type: none;
-   background-color: black;
-   margin-top: 0;
-   padding: 10px;
+   margin: 0;
+   padding: 0;
+   overflow:hidden;
+   background:#1C1C1C;
 `
 
 const PimpLi = styled.li`
-   display: flex;
+   margin: 0;
+   padding: 10px;
+   display: block;
+   float: left;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bolder;
+   cursor: pointer;
 `
