@@ -1,6 +1,5 @@
 const Navbar = () =>{
    return (
-      <>
       <Navbar>
          <ul>
             <li>Hjem</li>
@@ -9,7 +8,6 @@ const Navbar = () =>{
             <li>LinkedIn</li>
          </ul>
       </Navbar>
-      </>
    );
 };
 
