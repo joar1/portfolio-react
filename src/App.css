@@ -8,11 +8,21 @@ body {
   color:blanchedalmond;
 }
 
+.App-logo-reverse{
+  margin-left: 50px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo-reverse {
+    animation: App-logo-reverse-dance infinite 10s linear;
+  }
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -20,5 +30,15 @@ body {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-reverse-dance {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
   }
 }

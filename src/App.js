@@ -14,9 +14,9 @@ function App() {
     <Navbar/>
     <Header/>
     <img src={logo} className="App-logo" alt="logo" width="140" />
-    <img src={javaLogo} className="App-logo" alt="javaLogo" width="80"/>
-    <img src={htmlLogo} className="App-logo" alt="htmlLogo" width="83"/>
-    <img src={cssLogo} className="App-logo" alt="cssLogo" width="80"/>
+    <img src={javaLogo} className="App-logo-reverse" alt="javaLogo" width="80"/>
+    <img src={htmlLogo} className="App-logo-reverse" alt="htmlLogo" width="83"/>
+    <img src={cssLogo} className="App-logo-reverse" alt="cssLogo" width="80"/>
     </>
   );
 }
