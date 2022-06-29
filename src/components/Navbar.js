@@ -24,13 +24,12 @@ const PimpNav = styled.nav`
    background:#1C1C1C;
    display: flex;
    justify-content: space-between;
+   align-items: stretch;
 `
-
 const PimpUl = styled.ul`
    margin: 0;
    padding: 0;
 `
-
 const PimpLi = styled.li`
    margin: 0;
    padding: 10px 12px 10px 0px;
@@ -44,11 +43,11 @@ const BigA = styled.a`
    font-size: 2rem;
    padding-left:15px;
 `
-
 const PimpA = styled.a`
    align-items: center;
    color: blanchedalmond;
    text-decoration: none;
+   align-items: center;
    &:hover{
       color:gold;
    }
