@@ -1,13 +1,12 @@
-import { Link } from "react-router-dom";
-import { BigA, PimpNav } from "./Styles/Navstyle";
+import { BigA, PimpNav, PimpLink, PimpA } from "./Styles/Navstyle";
 
 export const Nav = () =>{
    return (
       <PimpNav>
-         <Link to="Hjem"><BigA>Hjem</BigA></Link>
-         <Link to="OmMeg">Om Meg</Link>
-         <Link href="https://www.linkedin.com/in/joar-reinsnes-938577169/" target="_blank">LinkedIn</Link>
-         <Link href="https://github.com/joar1?tab=repositories" target="_blank" >Prosjekter</Link>
+         <PimpLink to="Hjem"><BigA>Hjem</BigA></PimpLink>
+         <PimpLink to="OmMeg">Om Meg</PimpLink>
+         <PimpA href="https://www.linkedin.com/in/joar-reinsnes-938577169/" target="_blank" rel="noreferrer">LinkedIn</PimpA>
+         <PimpA href="https://github.com/joar1?tab=repositories" target="_blank" rel="noreferrer" >Prosjekter</PimpA>
       </PimpNav>
    );
 };
