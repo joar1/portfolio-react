@@ -1,6 +1,8 @@
+import { Bio } from "../components/Bio";
+
 const OmMeg = () => {
    return (
-   <div>Om Meg</div>
+      <Bio/>
    )
 }
 

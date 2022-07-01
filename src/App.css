@@ -19,10 +19,9 @@ body {
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo-reverse {
-    animation: App-logo-reverse-dance infinite 10s linear;
+    animation: App-logo-reverse-dance infinite 3s linear;
   }
 }
-
 
 @keyframes App-logo-spin {
   from {
@@ -37,7 +36,7 @@ body {
   from {
     transform: translateX(0%);
   }
-
+  
   to {
     transform: translateX(100%);
   }
