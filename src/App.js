@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import javaLogo from './images/js.png'
 import htmlLogo from './images/html.png'
 import cssLogo from './images/css.png'
-import { HashRouter, Routes ,Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes ,Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import {Nav} from './components/Navbar';
@@ -15,17 +15,16 @@ import Hjem from "./pages/Hjem"
 function App() {
   return (
     <>
-      <HashRouter>
-        <div className="wrapper">
-          <Nav/>
+      <Router>
+        <Nav/>
           <Routes>
-            <Route path="Hjem" exact component={Hjem} />
-            <Route path="Om Meg" component={OmMeg} />
-            <Route path="LinkedIn" component={Linkedin} />
-            <Route path="Prosjekter" component={Prosjekter} />
+            <Route path="/" element={<Hjem/>}/>
+            <Route path="Hjem" component={<Hjem/>} />
+            <Route path="/OmMeg" element={<OmMeg/>} />
+            <Route path="LinkedIn" component={<Linkedin/>} />
+            <Route path="Prosjekter" component={<Prosjekter/>} />
           </Routes>
-        </div>
-      </HashRouter>
+      </Router>
     <Header/>
     <img src={logo} className="App-logo" alt="logo" width="140" />
     <img src={javaLogo} className="App-logo-reverse" alt="javaLogo" width="80"/>
